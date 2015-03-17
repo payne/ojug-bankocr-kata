@@ -1,0 +1,2 @@
+Since my JDK's keystore is broken.
+http://stackoverflow.com/questions/26675814/gradle-could-not-head-https-pom-peer-not-authenticated

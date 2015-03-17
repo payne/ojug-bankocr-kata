@@ -11,10 +11,20 @@ apply plugin: "application"
 apply plugin: "eclipse"
 apply plugin: 'idea'
 
+
 repositories {
-    jcenter()
-    mavenCentral()
-}
+    jcenter {
+            url "http://jcenter.bintray.com/"
+                }
+                }
+
+
+                repositories {
+                    maven  {
+                            url "http://repo1.maven.org/maven2"
+                                }
+                                }
+
 
 dependencies {
     compile 'org.codehaus.groovy:groovy-all:2.3.7'
